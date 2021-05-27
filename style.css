@@ -2,6 +2,9 @@
 main {
     height: 77vw;
 } */
+/* body {
+    font-family: 'Cabin', sans-serif;
+} */
 
 .navbar-logo {
     max-width: 260px;
@@ -16,11 +19,21 @@ main {
     background-color: green;
     height: 339.25px;
     overflow: hidden;
-    background-image: url('/images/NXT-Bank-Video-Conference.jpg');
+    position: relative;
+}
+
+.ctn1 {
+    background-image: url('/images/NXT-Bank/NXT-Bank-Main-Render-Final.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    position: relative;
+}
+
+.ctn2 {
+    background-image: url('/images/Thesis/ThesisWebsite_Library.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 
@@ -40,15 +53,25 @@ main {
     position: absolute;
     color: #fff;
     top: 25%;
-    left: calc(50% - 85px);
+    left: calc(50% - 80px);
 }
 
 .project-title {
     font-size: 30px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
 }
 
 .blurb {
     font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.project-info {
+    font-size: 17px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
 }
 
 .ctn:hover .img{
@@ -58,6 +81,36 @@ main {
 .ctn:hover .project-explanation{
     opacity: 1;
 }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2b2d2f' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    width: 50px !important;
+}
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2b2d2f' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+     width: 50px !important;
+    }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px !important;
+}
+/* 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #2b2d2f;
+  opacity: 1 !important;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #2b2d2f;
+  opacity: 1 !important; */
+/* } */
 
 
 
