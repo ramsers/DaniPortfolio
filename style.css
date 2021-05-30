@@ -23,7 +23,7 @@ main {
 }
 
 .ctn1 {
-    background-image: url('/images/NXT-Bank/NXT-Bank-Main-Render-Final.jpg');
+    background-image: url('/images/NXT-Bank/NXT-Bank-Main-Render.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -53,7 +53,8 @@ main {
     position: absolute;
     color: #fff;
     top: 25%;
-    left: calc(50% - 80px);
+    left: calc(43% - 80px);
+    width: 250px;
 }
 
 .project-title {
@@ -78,7 +79,7 @@ main {
     opacity: 1;
 }
 
-.ctn:hover .project-explanation{
+.ctn:hover .project-explanation {
     opacity: 1;
 }
 
